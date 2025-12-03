@@ -33,8 +33,10 @@ plt.tick_params(axis="both", colors="#6cafc6")
 # to make the x ticks only show at the x coordinates
 plt.xticks(x)
 
+# plot the line graph
 plt.plot(x, y1)
 plt.plot(x, y2)
 plt.plot(x, y3)
 
+# show the line graph
 plt.show()
